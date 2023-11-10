@@ -1,0 +1,19 @@
+{
+  "name": "gameofn",
+  "version": "1.0.0",
+  "description": "extends the game of four",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./__tests__/sayHello.test.ts",
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "Moslem Ajra",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^29.5.8",
+    "concurrently": "^8.2.2",
+    "ts-jest": "^29.1.1"
+  }
+}
